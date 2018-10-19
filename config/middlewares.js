@@ -5,6 +5,8 @@ const jwtKey = require('../_secrets/keys').jwtKey;
 // quickly see what this file exports
 module.exports = {
   authenticate,
+  jwtKey,
+  jwt
 };
 
 // implementation details
