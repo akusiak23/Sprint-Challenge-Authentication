@@ -57,8 +57,8 @@ class SignUp extends React.Component {
                 />
 
                 <div className="btn-cont">
-                    <button type="submit" onClick={this.onSubmitHandler} className="btn">Sign Up</button>
-                    <button onClick={this.redirect} className="btn">Sign In</button>
+                    <button type="submit" onClick={this.onSubmitHandler} className="waves-effect waves-light btn">Sign Up</button>
+                    <button onClick={this.redirect} className="waves-effect waves-light btn">Sign In</button>
                 </div>
             </div>
         )

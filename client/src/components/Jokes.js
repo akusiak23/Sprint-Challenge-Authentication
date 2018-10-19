@@ -50,8 +50,8 @@ class Jokes extends React.Component {
                 <div>
                     <h2>Please login to view this content</h2>
                     <div className="btn-cont">
-                        <button className="btn" onClick={this.signIn}>Sign In</button>
-                        <button className="btn" onClick={this.signUp}>Sign Up</button>
+                        <button className="waves-effect waves-light btn" onClick={this.signIn}>Sign In</button>
+                        <button className="waves-effect waves-light btn" onClick={this.signUp}>Sign Up</button>
                     </div>
                 </div>
             )
@@ -65,7 +65,7 @@ class Jokes extends React.Component {
                             <p>Punchline: {e.punchline}</p>
                         </div>
                     )}
-                    <button className="btn" onClick={this.signOut}>Sign Out</button>
+                    <button className="waves-effect waves-light btn" onClick={this.signOut}>Sign Out</button>
                 </div>
             )
         } else {

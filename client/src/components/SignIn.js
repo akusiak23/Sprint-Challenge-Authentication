@@ -55,8 +55,8 @@ class SignIn extends React.Component {
                     placeholder="Password"
                 />
                 <div className="btn-cont">
-                    <button type="submit" onClick={this.onSubmitHandler} className="btn">Sign In</button>
-                    <button onClick={this.redirect} className="btn">Sign Up</button>
+                    <button type="submit" onClick={this.onSubmitHandler} className="waves-effect waves-light btn">Sign In</button>
+                    <button onClick={this.redirect} className="waves-effect waves-light btn">Sign Up</button>
                 </div>
             </div>
         )
